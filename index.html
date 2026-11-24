@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R B SILKS | Saree Shop in Podili, Andhra Pradesh | Pattu, Fancy & Daily Wear Sarees</title>
+    
+    <!-- Meta & SEO Tags -->
+    <meta name="description" content="R B SILKS, Podili - Premium Saree Shop on College Road, Viswanathapuram. Best collections of Pattu Sarees, Wedding Sarees, Fancy Sarees, Daily Wear Sarees, Dress Materials, Nightwear & Innerwear. Call/WhatsApp: +91 77990 58291.">
+    <meta name="keywords" content="R B Silks Podili, Saree Shop Podili, College Road Podili Sarees, Pattu Sarees, Fancy Sarees, Wedding Sarees, Daily Wear Sarees, Dress Materials, Nightwear, Innerwear">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Cinzel:wght@600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome 6 Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Tailwind CSS (via CDN) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'maroon-dark': '#3e0410',
+                        'maroon': '#5c0819',
+                        'maroon-rich': '#740b21',
+                        'gold': '#cba135',
+                        'gold-light': '#f5e3a8',
+                        'ivory': '#faf7f2',
+                        'cream': '#f4eee1'
+                    },
+                    fontFamily: {
+                        royal: ['Cinzel Decorative', 'Cinzel', 'serif'],
+                        heading: ['Cinzel', 'serif'],
+                        serif: ['Playfair Display', 'serif'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Custom Royal Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-ivory text-gray-900 antialiased selection:bg-amber-200 selection:text-maroon-dark">
+
+    <!-- =========================================================================
+         TOP ANNOUNCEMENT BAR
+         ========================================================================= -->
+    <div class="bg-maroon-dark text-gold-light text-xs font-medium py-2 px-4 text-center border-b border-gold/30">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-1.5">
+            <span class="flex items-center gap-1.5 justify-center">
+                <i class="fa-solid fa-store text-amber-400"></i>
+                <span>College Road, Viswanathapuram, Podili, AP • <strong>Open 24 Hours (Mon–Sat)</strong></span>
+            </span>
+            <div class="flex items-center gap-4 text-[11px] text-amber-200/90 justify-center">
+                <a href="tel:+917799058291" class="flex items-center gap-1 hover:text-white transition-colors">
+                    <i class="fa-solid fa-phone"></i> +91 77990 58291
+                </a>
+                <span>•</span>
+                <span class="flex items-center gap-1 text-amber-300 font-bold">
+                    <i class="fa-solid fa-star text-amber-400"></i> 5.0 Google Rating
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- =========================================================================
+         MAIN HEADER & NAVIGATION
+         ========================================================================= -->
+    <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md shadow-sm border-b border-amber-100 transition-all">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20 md:h-24">
+                
+                <!-- Brand Logo -->
+                <a href="#" class="flex flex-col items-start group">
+                    <div class="flex items-center gap-2">
+                        <span class="font-royal text-2xl md:text-3xl font-extrabold tracking-wider text-maroon group-hover:text-maroon-rich transition-colors">
+                            R B SILKS
+                        </span>
+                        <span class="bg-amber-100 text-amber-800 text-[10px] font-bold px-2 py-0.5 rounded-full flex items-center gap-1">
+                            <i class="fa-solid fa-star text-amber-600 text-[9px]"></i> 5.0
+                        </span>
+                    </div>
+                    <span class="text-[9px] md:text-[10px] tracking-[0.2em] uppercase text-amber-700 font-bold -mt-0.5 font-heading">
+                        Saree Shop • Podili
+                    </span>
+                </a>
+
+                <!-- Desktop Navigation Links -->
+                <nav class="hidden lg:flex items-center space-x-6 font-heading text-xs tracking-wider font-semibold text-gray-800 uppercase">
+                    <a href="#catalog-section" class="catalog-feature hover:text-maroon transition-colors py-1 border-b-2 border-transparent hover:border-gold">All Items</a>
+                    <a href="javascript:void(0)" onclick="setCategory('pattu-sarees')" class="catalog-feature hover:text-maroon transition-colors py-1 border-b-2 border-transparent hover:border-gold">Pattu & Wedding</a>
+                    <a href="javascript:void(0)" onclick="setCategory('fancy-sarees')" class="catalog-feature hover:text-maroon transition-colors py-1 border-b-2 border-transparent hover:border-gold">Fancy Sarees</a>
+                    <a href="javascript:void(0)" onclick="setCategory('daily-wear')" class="catalog-feature hover:text-maroon transition-colors py-1 border-b-2 border-transparent hover:border-gold">Daily Wear</a>
+                    <a href="javascript:void(0)" onclick="setCategory('dress-materials')" class="catalog-feature hover:text-maroon transition-colors py-1 border-b-2 border-transparent hover:border-gold">Dress Materials</a>
+                    <a href="javascript:void(0)" onclick="setCategory('nightwear-innerwear')" class="catalog-feature hover:text-maroon transition-colors py-1 border-b-2 border-transparent hover:border-gold">Nightwear</a>
+                    <a href="#store-section" class="hover:text-maroon transition-colors py-1 border-b-2 border-transparent hover:border-gold">Shop Location</a>
+                </nav>
+
+                <!-- Header Actions (Call, Directions, Wishlist, Bag) -->
+                <div class="flex items-center space-x-2 sm:space-x-3">
+                    
+                    <!-- Call Button -->
+                    <a 
+                        href="tel:+917799058291" 
+                        class="hidden sm:flex items-center gap-1.5 px-3.5 py-2 rounded-full bg-amber-50 hover:bg-amber-100 text-maroon text-xs font-bold transition-all border border-amber-200"
+                        title="Call Store"
+                    >
+                        <i class="fa-solid fa-phone text-xs"></i>
+                        <span>Call</span>
+                    </a>
+
+                    <!-- Directions Button -->
+                    <a 
+                        href="https://www.google.com/maps/search/?api=1&query=R+B+SILKS+College+Road+Viswanathapuram+Podili+Andhra+Pradesh+523240" 
+                        target="_blank"
+                        class="hidden sm:flex items-center gap-1.5 px-3.5 py-2 rounded-full bg-blue-50 hover:bg-blue-100 text-blue-800 text-xs font-bold transition-all border border-blue-200"
+                        title="Get Google Maps Directions"
+                    >
+                        <i class="fa-solid fa-diamond-turn-right text-xs"></i>
+                        <span>Directions</span>
+                    </a>
+
+                    <!-- Wishlist Icon -->
+                    <button 
+                        type="button" 
+                        onclick="showWishlistModal()"
+                        class="catalog-feature p-2.5 text-gray-700 hover:text-maroon relative transition-colors"
+                        title="View Wishlist"
+                    >
+                        <i class="fa-regular fa-heart text-xl"></i>
+                        <span class="wishlist-count-badge absolute -top-1 -right-1 w-5 h-5 rounded-full bg-red-600 text-white text-[11px] font-bold items-center justify-center shadow hidden">0</span>
+                    </button>
+
+                    <!-- Inquiry Bag / Cart Icon -->
+                    <button
+                        type="button"
+                        onclick="toggleCartDrawer(true)"
+                        class="bag-feature p-2.5 text-gray-700 hover:text-maroon relative transition-colors"
+                        title="View Inquiry Bag"
+                    >
+                        <i class="fa-solid fa-bag-shopping text-xl text-amber-800"></i>
+                        <span class="bag-count-badge absolute -top-1 -right-1 w-5 h-5 rounded-full bg-maroon text-white text-[11px] font-bold items-center justify-center shadow hidden">0</span>
+                    </button>
+
+                    <!-- Mobile Menu Hamburger -->
+                    <button 
+                        id="mobile-menu-btn" 
+                        type="button" 
+                        class="lg:hidden p-2 text-gray-700 hover:text-maroon focus:outline-none"
+                    >
+                        <i class="fa-solid fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-b border-amber-100 px-4 py-4 space-y-3 font-heading text-xs uppercase font-bold tracking-wider">
+            <div class="grid grid-cols-2 gap-2 pb-2 border-b border-gray-100">
+                <a href="tel:+917799058291" class="py-2.5 px-3 bg-amber-50 rounded-lg text-maroon flex items-center justify-center gap-1.5 text-xs font-bold text-center">
+                    <i class="fa-solid fa-phone"></i> Call Now
+                </a>
+                <a href="https://www.google.com/maps/search/?api=1&query=R+B+SILKS+College+Road+Viswanathapuram+Podili+Andhra+Pradesh+523240" target="_blank" class="py-2.5 px-3 bg-blue-50 rounded-lg text-blue-800 flex items-center justify-center gap-1.5 text-xs font-bold text-center">
+                    <i class="fa-solid fa-diamond-turn-right"></i> Directions
+                </a>
+            </div>
+            <a href="#catalog-section" class="catalog-feature block py-2 text-gray-800 hover:text-maroon border-b border-gray-100">All Collections</a>
+            <a href="javascript:void(0)" onclick="setCategory('pattu-sarees'); document.getElementById('mobile-menu').classList.add('hidden');" class="catalog-feature block py-2 text-gray-800 hover:text-maroon border-b border-gray-100">Pattu & Wedding Sarees</a>
+            <a href="javascript:void(0)" onclick="setCategory('fancy-sarees'); document.getElementById('mobile-menu').classList.add('hidden');" class="catalog-feature block py-2 text-gray-800 hover:text-maroon border-b border-gray-100">Fancy & Designer Sarees</a>
+            <a href="javascript:void(0)" onclick="setCategory('daily-wear'); document.getElementById('mobile-menu').classList.add('hidden');" class="catalog-feature block py-2 text-gray-800 hover:text-maroon border-b border-gray-100">Daily Wear Sarees</a>
+            <a href="javascript:void(0)" onclick="setCategory('dress-materials'); document.getElementById('mobile-menu').classList.add('hidden');" class="catalog-feature block py-2 text-gray-800 hover:text-maroon border-b border-gray-100">Dress Materials & Churidars</a>
+            <a href="javascript:void(0)" onclick="setCategory('nightwear-innerwear'); document.getElementById('mobile-menu').classList.add('hidden');" class="catalog-feature block py-2 text-gray-800 hover:text-maroon border-b border-gray-100">Nightwear & Innerwear</a>
+            <a href="#store-section" class="block py-2 text-gray-800 hover:text-maroon">Store Location & Hours</a>
+        </div>
+    </header>
+
+    <!-- =========================================================================
+         HERO SECTION
+         ========================================================================= -->
+    <section class="relative bg-royal-maroon text-white overflow-hidden py-14 md:py-20">
+        <!-- Silk Lattice Background Texture -->
+        <div class="absolute inset-0 opacity-10 bg-silk-pattern pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+                
+                <!-- Left: Headline & Call to Action -->
+                <div class="lg:col-span-7 space-y-5 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 border border-gold/40 text-gold-light text-xs font-semibold tracking-wider">
+                        <span class="flex text-amber-400">
+                            <i class="fa-solid fa-star text-[11px]"></i>
+                            <i class="fa-solid fa-star text-[11px]"></i>
+                            <i class="fa-solid fa-star text-[11px]"></i>
+                            <i class="fa-solid fa-star text-[11px]"></i>
+                            <i class="fa-solid fa-star text-[11px]"></i>
+                        </span>
+                        <span>5.0 Rating Saree Shop • Podili, Andhra Pradesh</span>
+                    </div>
+
+                    <h1 class="font-royal text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight text-white">
+                        Welcome to <br/>
+                        <span class="text-gold-gradient">R B SILKS</span>
+                    </h1>
+
+                    <p class="font-serif text-base sm:text-lg text-amber-100/95 font-light max-w-2xl leading-relaxed">
+                        Your complete family textile destination for <strong>Sarees, Dress Materials, Nightwear, Blankets, Bed Sheets, Towels, Shirting and Door Curtains</strong> at direct wholesale & retail prices.
+                    </p>
+
+                    <!-- Quick Store Info Badges -->
+                    <div class="flex flex-wrap items-center justify-center lg:justify-start gap-2.5 text-xs text-amber-200">
+                        <span class="bg-white/10 px-3 py-1 rounded-full flex items-center gap-1.5 border border-white/10">
+                            <i class="fa-solid fa-location-dot text-amber-400"></i> College Road, Viswanathapuram, Podili
+                        </span>
+                        <span class="bg-emerald-900/60 px-3 py-1 rounded-full flex items-center gap-1.5 border border-emerald-500/40 text-emerald-300 font-semibold">
+                            <i class="fa-solid fa-clock text-emerald-400"></i> Open 24 Hours (Mon–Sat)
+                        </span>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3 pt-3">
+                        <a href="tel:+917799058291" class="w-full sm:w-auto btn-gold px-7 py-3.5 rounded-xl text-xs font-bold flex items-center justify-center gap-2 shadow-xl">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>Call +91 77990 58291</span>
+                        </a>
+
+                        <a 
+                            href="https://www.google.com/maps/search/?api=1&query=R+B+SILKS+College+Road+Viswanathapuram+Podili+Andhra+Pradesh+523240" 
+                            target="_blank"
+                            class="w-full sm:w-auto px-6 py-3.5 rounded-xl text-xs font-bold flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 border border-gold/40 text-white transition-all"
+                        >
+                            <i class="fa-solid fa-diamond-turn-right text-amber-400"></i>
+                            <span>Get Directions on Map</span>
+                        </a>
+
+                        <a 
+                            href="https://wa.me/917799058291?text=Hello%20R%20B%20SILKS%20Podili%2C%20I%20would%20like%20to%20inquire%20about%20sarees%20and%20dress%20materials." 
+                            target="_blank"
+                            class="w-full sm:w-auto btn-whatsapp px-6 py-3.5 rounded-xl text-xs font-bold flex items-center justify-center gap-2 shadow-xl"
+                        >
+                            <i class="fa-brands fa-whatsapp text-base"></i>
+                            <span>WhatsApp Shop</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right: Featured Store Visual Card -->
+                <div class="lg:col-span-5 relative">
+                    <div class="relative mx-auto max-w-md lg:max-w-none">
+                        <div class="absolute -inset-3 rounded-3xl bg-gradient-to-tr from-amber-600/30 to-amber-200/20 blur-lg"></div>
+
+                        <div class="relative rounded-2xl overflow-hidden shadow-2xl border-2 border-gold/40 bg-maroon-dark">
+                            <img 
+                                src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=80" 
+                                alt="R B Silks Saree Collections" 
+                                class="w-full h-[380px] md:h-[440px] object-cover object-top"
+                            />
+                            
+                            <!-- Floating Card Tag -->
+                            <div class="absolute bottom-4 left-4 right-4 bg-maroon-dark/95 backdrop-blur-md p-4 rounded-xl border border-gold/30 text-white flex items-center justify-between">
+                                <div>
+                                    <span class="text-[10px] text-amber-400 font-bold uppercase tracking-widest">Store Offerings</span>
+                                    <h3 class="font-serif-sub font-bold text-sm text-gold-light">All Variety Sarees & Dress Materials</h3>
+                                    <p class="text-xs text-gray-300">Daily Wear • Fancy • Bridal Pattu</p>
+                                </div>
+                                <a href="#catalog-section" class="catalog-feature btn-gold p-2.5 rounded-lg text-xs font-bold" title="Browse Catalog">
+                                    <i class="fa-solid fa-arrow-down"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- =========================================================================
+         WHAT WE OFFER (text + images only, no prices / cart)
+         ========================================================================= -->
+    <section id="offer-section" class="py-16 md:py-20 bg-ivory scroll-mt-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div class="text-center mb-12">
+                <span class="text-xs font-bold uppercase tracking-[0.2em] text-amber-800">Our Collections</span>
+                <h2 class="font-royal text-2xl sm:text-3xl md:text-4xl font-extrabold text-gray-900 mt-1">What We Offer</h2>
+                <div class="royal-divider mt-3">
+                    <i class="fa-solid fa-gem text-amber-600 text-xs"></i>
+                </div>
+                <p class="font-serif text-sm sm:text-base text-gray-600 mt-3 max-w-2xl mx-auto">
+                    From grand wedding silks to bed sheets, towels and shirting, everything your family needs under one roof in Podili.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+
+                <!-- Pattu Sarees -->
+                <article class="group bg-white rounded-2xl overflow-hidden border border-amber-100 shadow-sm hover:shadow-xl transition-shadow">
+                    <div class="relative h-64 overflow-hidden bg-gradient-to-br from-amber-100 to-amber-50">
+                        <img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=80" alt="Pattu sarees" loading="lazy" onerror="this.style.display='none'" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
+                        <span class="absolute bottom-3 left-4 text-gold-light text-[10px] font-bold uppercase tracking-[0.2em]">Timeless Tradition</span>
+                    </div>
+                    <div class="p-5">
+                        <h3 class="font-royal font-bold text-lg text-maroon-dark">Pattu Sarees</h3>
+                        <p class="font-serif text-sm text-gray-600 mt-1.5 leading-relaxed">Kanchi, Dharmavaram and Gadwal silks with rich zari borders, woven for weddings and festivals.</p>
+                    </div>
+                </article>
+
+                <!-- Wedding & Bridal -->
+                <article class="group bg-white rounded-2xl overflow-hidden border border-amber-100 shadow-sm hover:shadow-xl transition-shadow">
+                    <div class="relative h-64 overflow-hidden bg-gradient-to-br from-amber-100 to-amber-50">
+                        <img src="https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=800&q=80" alt="Wedding and bridal sarees" loading="lazy" onerror="this.style.display='none'" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
+                        <span class="absolute bottom-3 left-4 text-gold-light text-[10px] font-bold uppercase tracking-[0.2em]">For Your Big Day</span>
+                    </div>
+                    <div class="p-5">
+                        <h3 class="font-royal font-bold text-lg text-maroon-dark">Wedding &amp; Bridal Sarees</h3>
+                        <p class="font-serif text-sm text-gray-600 mt-1.5 leading-relaxed">Grand bridal collections for the bride, her family and every guest, in auspicious colours.</p>
+                    </div>
+                </article>
+
+                <!-- Fancy -->
+                <article class="group bg-white rounded-2xl overflow-hidden border border-amber-100 shadow-sm hover:shadow-xl transition-shadow">
+                    <div class="relative h-64 overflow-hidden bg-gradient-to-br from-amber-100 to-amber-50">
+                        <img src="https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=800&q=80" alt="Fancy and designer sarees" loading="lazy" onerror="this.style.display='none'" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
+                        <span class="absolute bottom-3 left-4 text-gold-light text-[10px] font-bold uppercase tracking-[0.2em]">Party &amp; Festive</span>
+                    </div>
+                    <div class="p-5">
+                        <h3 class="font-royal font-bold text-lg text-maroon-dark">Fancy &amp; Designer Sarees</h3>
+                        <p class="font-serif text-sm text-gray-600 mt-1.5 leading-relaxed">Organza, georgette and chiffon sarees with embroidery and sequin work for parties and receptions.</p>
+                    </div>
+                </article>
+
+                <!-- Daily Wear -->
+                <article class="group bg-white rounded-2xl overflow-hidden border border-amber-100 shadow-sm hover:shadow-xl transition-shadow">
+                    <div class="relative h-64 overflow-hidden bg-gradient-to-br from-amber-100 to-amber-50">
+                        <img src="https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=800&q=80" alt="Daily wear sarees" loading="lazy" onerror="this.style.display='none'" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
+                        <span class="absolute bottom-3 left-4 text-gold-light text-[10px] font-bold uppercase tracking-[0.2em]">Everyday Comfort</span>
+                    </div>
+                    <div class="p-5">
+                        <h3 class="font-royal font-bold text-lg text-maroon-dark">Daily Wear Sarees</h3>
+                        <p class="font-serif text-sm text-gray-600 mt-1.5 leading-relaxed">Soft cotton silk, kalamkari and printed sarees that are light, easy to wash and made for every day.</p>
+                    </div>
+                </article>
+
+                <!-- Dress Materials -->
+                <article class="group bg-white rounded-2xl overflow-hidden border border-amber-100 shadow-sm hover:shadow-xl transition-shadow">
+                    <div class="relative h-64 overflow-hidden bg-gradient-to-br from-amber-100 to-amber-50">
+                        <img src="https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=800&q=80" alt="Dress materials" loading="lazy" onerror="this.style.display='none'" class="w-full h-full object-cover object-bottom group-hover:scale-105 transition-transform duration-500" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
+                        <span class="absolute bottom-3 left-4 text-gold-light text-[10px] font-bold uppercase tracking-[0.2em]">Stitch Your Style</span>
+                    </div>
+                    <div class="p-5">
+                        <h3 class="font-royal font-bold text-lg text-maroon-dark">Dress Materials</h3>
+                        <p class="font-serif text-sm text-gray-600 mt-1.5 leading-relaxed">Unstitched churidar and salwar sets in chanderi, pure cotton and silk, with matching dupattas.</p>
+                    </div>
+                </article>
+
+                <!-- Nightwear & Innerwear -->
+                <article class="group bg-white rounded-2xl overflow-hidden border border-amber-100 shadow-sm hover:shadow-xl transition-shadow">
+                    <div class="relative h-64 overflow-hidden bg-gradient-to-br from-amber-100 to-amber-50">
+                        <img src="https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=800&q=80" alt="Nightwear and innerwear" loading="lazy" onerror="this.style.display='none'" class="w-full h-full object-cover object-bottom group-hover:scale-105 transition-transform duration-500" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
+                        <span class="absolute bottom-3 left-4 text-gold-light text-[10px] font-bold uppercase tracking-[0.2em]">Soft &amp; Cosy</span>
+                    </div>
+                    <div class="p-5">
+                        <h3 class="font-royal font-bold text-lg text-maroon-dark">Nightwear &amp; Innerwear</h3>
+                        <p class="font-serif text-sm text-gray-600 mt-1.5 leading-relaxed">Pure cotton nighties, satin sets and everyday innerwear, soft on the skin and long lasting.</p>
+                    </div>
+                </article>
+
+                <!-- Blankets -->
+                <article class="group bg-white rounded-2xl overflow-hidden border border-amber-100 shadow-sm hover:shadow-xl transition-shadow">
+                    <div class="relative h-64 overflow-hidden bg-gradient-to-br from-amber-100 to-amber-50">
+                        <img src="images/blankets.jpg" alt="Blankets" loading="lazy" onerror="this.style.display='none'" class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
+                        <span class="absolute bottom-3 left-4 text-gold-light text-[10px] font-bold uppercase tracking-[0.2em]">Warm &amp; Comfortable</span>
+                    </div>
+                    <div class="p-5">
+                        <h3 class="font-royal font-bold text-lg text-maroon-dark">Blankets</h3>
+                        <p class="font-serif text-sm text-gray-600 mt-1.5 leading-relaxed">Soft, warm blankets for every season, in many colours and designs for the whole family.</p>
+                    </div>
+                </article>
+
+                <!-- Bed Sheets -->
+                <article class="group bg-white rounded-2xl overflow-hidden border border-amber-100 shadow-sm hover:shadow-xl transition-shadow">
+                    <div class="relative h-64 overflow-hidden bg-gradient-to-br from-amber-100 to-amber-50">
+                        <img src="images/bedsheets.jpg" alt="Bed sheets" loading="lazy" onerror="this.style.display='none'" class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
+                        <span class="absolute bottom-3 left-4 text-gold-light text-[10px] font-bold uppercase tracking-[0.2em]">All Sizes Available</span>
+                    </div>
+                    <div class="p-5">
+                        <h3 class="font-royal font-bold text-lg text-maroon-dark">Bed Sheets</h3>
+                        <p class="font-serif text-sm text-gray-600 mt-1.5 leading-relaxed">Bed sheets in all sizes: 4×6, 5×6, 6×6 and 7×6 feet, in fresh prints and plain colours.</p>
+                    </div>
+                </article>
+
+                <!-- Towels -->
+                <article class="group bg-white rounded-2xl overflow-hidden border border-amber-100 shadow-sm hover:shadow-xl transition-shadow">
+                    <div class="relative h-64 overflow-hidden bg-gradient-to-br from-amber-100 to-amber-50">
+                        <img src="images/towels.jpg" alt="Towels" loading="lazy" onerror="this.style.display='none'" class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
+                        <span class="absolute bottom-3 left-4 text-gold-light text-[10px] font-bold uppercase tracking-[0.2em]">Soft &amp; Absorbent</span>
+                    </div>
+                    <div class="p-5">
+                        <h3 class="font-royal font-bold text-lg text-maroon-dark">Towels</h3>
+                        <p class="font-serif text-sm text-gray-600 mt-1.5 leading-relaxed">Towels of all sizes, from hand and face towels to large bath towels, in soft absorbent cotton.</p>
+                    </div>
+                </article>
+
+                <!-- Shirting -->
+                <article class="group bg-white rounded-2xl overflow-hidden border border-amber-100 shadow-sm hover:shadow-xl transition-shadow">
+                    <div class="relative h-64 overflow-hidden bg-gradient-to-br from-amber-100 to-amber-50">
+                        <img src="images/shirting.jpg" alt="Shirting cloth" loading="lazy" onerror="this.style.display='none'" class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
+                        <span class="absolute bottom-3 left-4 text-gold-light text-[10px] font-bold uppercase tracking-[0.2em]">Gents Collection</span>
+                    </div>
+                    <div class="p-5">
+                        <h3 class="font-royal font-bold text-lg text-maroon-dark">Shirting Cloth</h3>
+                        <p class="font-serif text-sm text-gray-600 mt-1.5 leading-relaxed">Shirting cloth in all varieties, including Ramraj and Deeksha.</p>
+                    </div>
+                </article>
+
+                <!-- Door Curtains -->
+                <article class="group bg-white rounded-2xl overflow-hidden border border-amber-100 shadow-sm hover:shadow-xl transition-shadow">
+                    <div class="relative h-64 overflow-hidden bg-gradient-to-br from-amber-100 to-amber-50">
+                        <img src="images/curtains.jpg" alt="Door curtains" loading="lazy" onerror="this.style.display='none'" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
+                        <span class="absolute bottom-3 left-4 text-gold-light text-[10px] font-bold uppercase tracking-[0.2em]">For Your Home</span>
+                    </div>
+                    <div class="p-5">
+                        <h3 class="font-royal font-bold text-lg text-maroon-dark">Door Curtains</h3>
+                        <p class="font-serif text-sm text-gray-600 mt-1.5 leading-relaxed">Door curtains in lovely prints and colours to bring a fresh look to your home.</p>
+                    </div>
+                </article>
+
+            </div>
+
+            <!-- Call to action -->
+            <div class="text-center mt-12">
+                <p class="font-serif text-sm sm:text-base text-gray-700 mb-4">Visit us at College Road, Podili, or message us on WhatsApp to see the latest designs.</p>
+                <a href="https://wa.me/917799058291?text=Hello%20R%20B%20SILKS%20Podili%2C%20I%20would%20like%20to%20know%20about%20your%20latest%20collections." target="_blank" class="btn-whatsapp inline-flex px-7 py-3.5 rounded-xl text-xs font-bold items-center justify-center gap-2 shadow-xl">
+                    <i class="fa-brands fa-whatsapp text-base"></i>
+                    <span>Ask on WhatsApp</span>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- =========================================================================
+         STORE OFFERINGS & CATEGORIES
+         ========================================================================= -->
+    <section class="catalog-feature py-12 bg-cream border-b border-amber-200/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-8">
+                <span class="text-xs font-bold uppercase tracking-[0.2em] text-amber-800">Our Complete Range</span>
+                <h2 class="font-royal text-2xl md:text-3xl font-bold text-gray-900 mt-1">Shop by Category</h2>
+                <div class="royal-divider mt-2">
+                    <i class="fa-solid fa-gem text-amber-600 text-xs"></i>
+                </div>
+            </div>
+
+            <!-- Category Grid Matching Google Listing -->
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+                
+                <button onclick="setCategory('pattu-sarees')" class="bg-white p-4 rounded-2xl shadow-sm border border-amber-100 hover:border-gold hover:shadow-md transition-all text-center flex flex-col items-center group">
+                    <div class="w-14 h-14 rounded-full bg-amber-50 group-hover:bg-maroon group-hover:text-gold flex items-center justify-center text-maroon text-xl mb-3 transition-colors">
+                        <i class="fa-solid fa-crown"></i>
+                    </div>
+                    <span class="font-serif-sub font-bold text-xs md:text-sm text-gray-900 group-hover:text-maroon">Pattu Sarees</span>
+                    <span class="text-[10px] text-gray-500 mt-0.5">Wedding & Kanchi Pattu</span>
+                </button>
+
+                <button onclick="setCategory('fancy-sarees')" class="bg-white p-4 rounded-2xl shadow-sm border border-amber-100 hover:border-gold hover:shadow-md transition-all text-center flex flex-col items-center group">
+                    <div class="w-14 h-14 rounded-full bg-amber-50 group-hover:bg-maroon group-hover:text-gold flex items-center justify-center text-maroon text-xl mb-3 transition-colors">
+                        <i class="fa-solid fa-sparkles"></i>
+                    </div>
+                    <span class="font-serif-sub font-bold text-xs md:text-sm text-gray-900 group-hover:text-maroon">Fancy Sarees</span>
+                    <span class="text-[10px] text-gray-500 mt-0.5">Party & Designer Sarees</span>
+                </button>
+
+                <button onclick="setCategory('daily-wear')" class="bg-white p-4 rounded-2xl shadow-sm border border-amber-100 hover:border-gold hover:shadow-md transition-all text-center flex flex-col items-center group">
+                    <div class="w-14 h-14 rounded-full bg-amber-50 group-hover:bg-maroon group-hover:text-gold flex items-center justify-center text-maroon text-xl mb-3 transition-colors">
+                        <i class="fa-solid fa-shirt"></i>
+                    </div>
+                    <span class="font-serif-sub font-bold text-xs md:text-sm text-gray-900 group-hover:text-maroon">Daily Wear Sarees</span>
+                    <span class="text-[10px] text-gray-500 mt-0.5">Cotton Silk & Lightweight</span>
+                </button>
+
+                <button onclick="setCategory('dress-materials')" class="bg-white p-4 rounded-2xl shadow-sm border border-amber-100 hover:border-gold hover:shadow-md transition-all text-center flex flex-col items-center group">
+                    <div class="w-14 h-14 rounded-full bg-amber-50 group-hover:bg-maroon group-hover:text-gold flex items-center justify-center text-maroon text-xl mb-3 transition-colors">
+                        <i class="fa-solid fa-vest-patches"></i>
+                    </div>
+                    <span class="font-serif-sub font-bold text-xs md:text-sm text-gray-900 group-hover:text-maroon">Dress Materials</span>
+                    <span class="text-[10px] text-gray-500 mt-0.5">Churidar & Suit Sets</span>
+                </button>
+
+                <button onclick="setCategory('nightwear-innerwear')" class="bg-white p-4 rounded-2xl shadow-sm border border-amber-100 hover:border-gold hover:shadow-md transition-all text-center flex flex-col items-center group col-span-2 sm:col-span-1">
+                    <div class="w-14 h-14 rounded-full bg-amber-50 group-hover:bg-maroon group-hover:text-gold flex items-center justify-center text-maroon text-xl mb-3 transition-colors">
+                        <i class="fa-solid fa-bed"></i>
+                    </div>
+                    <span class="font-serif-sub font-bold text-xs md:text-sm text-gray-900 group-hover:text-maroon">Nightwear & Innerwear</span>
+                    <span class="text-[10px] text-gray-500 mt-0.5">Pure Cotton Nighties</span>
+                </button>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================================================================
+         PRODUCT CATALOG & SEARCH / FILTER SECTION
+         ========================================================================= -->
+    <section id="catalog-section" class="catalog-feature py-16 md:py-20 bg-ivory scroll-mt-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <!-- Section Header -->
+            <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
+                <div>
+                    <span class="text-xs font-bold uppercase tracking-[0.2em] text-amber-800">R B SILKS Catalog</span>
+                    <h2 class="font-royal text-2xl sm:text-3xl md:text-4xl font-extrabold text-gray-900 mt-1">
+                        Explore Our Store Collection
+                    </h2>
+                    <p class="font-serif text-sm text-gray-600 mt-1">
+                        Order directly on WhatsApp or visit our store at College Road, Podili.
+                    </p>
+                </div>
+
+                <!-- Search & Sort Controls -->
+                <div class="flex flex-col sm:flex-row items-center gap-3 w-full md:w-auto">
+                    <!-- Search Input -->
+                    <div class="relative w-full sm:w-64">
+                        <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-1/2 -translate-y-1/2 text-gray-400 text-xs"></i>
+                        <input 
+                            id="saree-search-input"
+                            type="text" 
+                            placeholder="Search sarees, dress materials..."
+                            oninput="handleSearch(event)"
+                            class="w-full pl-9 pr-4 py-2.5 rounded-full border border-gray-300 focus:border-amber-600 focus:ring-1 focus:ring-amber-600 text-xs bg-white text-gray-900 placeholder:text-gray-400"
+                        />
+                    </div>
+
+                    <!-- Sort Select -->
+                    <select 
+                        onchange="handleSort(event)"
+                        class="w-full sm:w-auto px-4 py-2.5 rounded-full border border-gray-300 focus:border-amber-600 text-xs bg-white font-semibold text-gray-700 cursor-pointer"
+                    >
+                        <option value="featured">Sort by: Featured</option>
+                        <option value="price-low">Price: Low to High</option>
+                        <option value="price-high">Price: High to Low</option>
+                        <option value="rating">Top Customer Rated</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Category Filter Chips -->
+            <div id="category-filter-container" class="flex items-center gap-2 overflow-x-auto pb-4 mb-8 no-scrollbar">
+                <!-- Dynamically populated via js/app.js -->
+            </div>
+
+            <!-- Active Filter Count Display -->
+            <div class="flex items-center justify-between text-xs text-gray-500 mb-6 px-1">
+                <span id="saree-count" class="font-semibold text-gray-800">Showing Items</span>
+                <span class="flex items-center gap-1.5 text-emerald-800 font-medium">
+                    <i class="fa-solid fa-circle-check text-xs"></i> In Stock & Ready at Podili Store
+                </span>
+            </div>
+
+            <!-- Product Cards Grid -->
+            <div id="saree-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+                <!-- Dynamically rendered via js/app.js -->
+            </div>
+
+            <!-- Empty Search/Filter State -->
+            <div id="saree-empty-state" class="hidden text-center py-16 bg-white rounded-2xl border border-dashed border-gray-300 p-8">
+                <div class="w-16 h-16 rounded-full bg-amber-50 text-amber-800 flex items-center justify-center mx-auto text-2xl mb-4">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <h3 class="font-royal text-xl font-bold text-gray-900 mb-2">No Matching Items Found</h3>
+                <p class="text-sm text-gray-500 max-w-md mx-auto mb-6">
+                    Try adjusting your search or select another category from our store collection.
+                </p>
+                <button onclick="setCategory('all'); document.getElementById('saree-search-input').value='';" class="btn-gold px-6 py-2.5 rounded-full text-xs font-bold">
+                    View All Collections
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- =========================================================================
+         DIRECT WHATSAPP & VIDEO CALL SHOPPING
+         ========================================================================= -->
+    <section class="py-14 bg-royal-maroon text-white relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="bg-maroon-dark/90 rounded-3xl p-8 md:p-10 border border-gold/40 shadow-2xl flex flex-col lg:flex-row items-center justify-between gap-8">
+                
+                <div class="space-y-3 max-w-2xl text-center lg:text-left">
+                    <span class="px-3.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 text-xs font-bold uppercase tracking-wider border border-emerald-400/30">
+                        <i class="fa-brands fa-whatsapp mr-1.5 text-emerald-400 text-sm"></i> WhatsApp Support: +91 77990 58291
+                    </span>
+                    <h2 class="font-royal text-2xl sm:text-3xl font-extrabold text-white leading-tight">
+                        Order on WhatsApp or Book Live Video Call
+                    </h2>
+                    <p class="font-serif text-sm text-amber-100/90 leading-relaxed">
+                        Looking for specific colors or wedding pattu saree sets? Connect with us on WhatsApp or schedule a live video call to view sarees in real-time.
+                    </p>
+                </div>
+
+                <div class="flex flex-col sm:flex-row items-center gap-3 shrink-0">
+                    <a 
+                        href="https://wa.me/917799058291?text=Hello%20R%20B%20SILKS%20Podili%2C%20I%20would%20like%20to%20see%20saree%20photos%20and%20prices." 
+                        target="_blank"
+                        class="btn-whatsapp px-6 py-3.5 rounded-xl text-xs font-bold flex items-center gap-2 shadow-lg"
+                    >
+                        <i class="fa-brands fa-whatsapp text-lg"></i>
+                        <span>Chat on WhatsApp</span>
+                    </a>
+
+                    <button 
+                        type="button" 
+                        onclick="openVideoCallModal()" 
+                        class="btn-gold px-6 py-3.5 rounded-xl text-xs font-bold flex items-center gap-2 shadow-lg"
+                    >
+                        <i class="fa-solid fa-video text-maroon-dark"></i>
+                        <span>Book Video Call</span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================================================================
+         CUSTOMER TESTIMONIALS
+         ========================================================================= -->
+    <section class="py-16 bg-cream border-t border-amber-200/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <div class="flex items-center justify-center gap-1.5 text-amber-500 text-sm mb-1">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span class="text-xs font-bold text-gray-800 ml-1">5.0 Star Rated on Google</span>
+                </div>
+                <h2 class="font-royal text-2xl sm:text-3xl font-extrabold text-gray-900">
+                    What Our Customers in Podili Say
+                </h2>
+                <div class="royal-divider mt-2">
+                    <i class="fa-solid fa-heart text-amber-600 text-xs"></i>
+                </div>
+            </div>
+
+            <div id="testimonials-grid" class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Dynamically populated via js/app.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================================================================
+         FLAGSHIP STORE LOCATION & CONTACT DETAILS
+         ========================================================================= -->
+    <section id="store-section" class="py-16 md:py-20 bg-white scroll-mt-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+                
+                <!-- Left: Boutique Info Matching Listing -->
+                <div class="lg:col-span-6 space-y-6">
+                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-50 text-amber-900 border border-amber-200 text-xs font-bold">
+                        <i class="fa-solid fa-location-dot text-amber-700"></i> Podili, Andhra Pradesh
+                    </div>
+                    <h2 class="font-royal text-2xl sm:text-3xl md:text-4xl font-extrabold text-gray-900 leading-tight">
+                        Visit R B SILKS in Podili
+                    </h2>
+                    <p class="font-serif text-sm text-gray-600 leading-relaxed">
+                        We welcome you and your family to explore our massive variety of sarees, dress materials, and nightwear on College Road.
+                    </p>
+
+                    <div class="space-y-4 pt-2">
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-full bg-amber-50 text-maroon flex items-center justify-center shrink-0 mt-0.5">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-sm text-gray-900">Store Address</h4>
+                                <p class="text-xs text-gray-600 store-address">College Road, Viswanathapuram, Podili, Andhra Pradesh 523240</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-full bg-amber-50 text-maroon flex items-center justify-center shrink-0 mt-0.5">
+                                <i class="fa-solid fa-phone text-emerald-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-sm text-gray-900">Phone & WhatsApp</h4>
+                                <p class="text-xs text-gray-600 store-phone">+91 77990 58291</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-full bg-amber-50 text-maroon flex items-center justify-center shrink-0 mt-0.5">
+                                <i class="fa-solid fa-clock text-amber-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-sm text-gray-900">Operating Hours</h4>
+                                <p class="text-xs text-gray-600 store-timings">Open 24 hours (Monday–Saturday); 8:00 AM – 10:00 PM (Sunday)</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-full bg-amber-50 text-maroon flex items-center justify-center shrink-0 mt-0.5">
+                                <i class="fa-solid fa-bag-shopping text-blue-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-sm text-gray-900">Our Offerings</h4>
+                                <p class="text-xs text-gray-600">Daily wear sarees, fancy sarees, wedding sarees, pattu sarees, dress materials, nightwear, innerwear, blankets, bed sheets, towels, shirting and door curtains</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pt-4 flex flex-wrap gap-3">
+                        <a 
+                            href="tel:+917799058291" 
+                            class="btn-gold px-6 py-3 rounded-xl text-xs font-bold flex items-center gap-2"
+                        >
+                            <i class="fa-solid fa-phone"></i>
+                            <span>Call Store</span>
+                        </a>
+
+                        <a 
+                            href="https://www.google.com/maps/search/?api=1&query=R+B+SILKS+College+Road+Viswanathapuram+Podili+Andhra+Pradesh+523240" 
+                            target="_blank"
+                            class="px-6 py-3 rounded-xl text-xs font-bold flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white transition-all shadow-md"
+                        >
+                            <i class="fa-solid fa-diamond-turn-right"></i>
+                            <span>Get Directions</span>
+                        </a>
+
+                        <a 
+                            href="https://wa.me/917799058291" 
+                            target="_blank"
+                            class="btn-whatsapp px-6 py-3 rounded-xl text-xs font-bold flex items-center gap-2"
+                        >
+                            <i class="fa-brands fa-whatsapp text-base"></i>
+                            <span>WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right: FAQs -->
+                <div class="lg:col-span-6 space-y-5">
+                    <div>
+                        <span class="text-xs font-bold uppercase tracking-[0.2em] text-amber-800">Helpful Info</span>
+                        <h3 class="font-royal text-xl sm:text-2xl font-bold text-gray-900 mt-1">Frequently Asked Questions</h3>
+                    </div>
+
+                    <div id="faq-accordion" class="space-y-3">
+                        <!-- Dynamically populated via js/app.js -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================================================================
+         FOOTER
+         ========================================================================= -->
+    <footer class="bg-maroon-dark text-white pt-14 pb-10 border-t border-gold/30">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 pb-10 border-b border-white/10">
+                
+                <!-- Col 1: About -->
+                <div class="space-y-3">
+                    <span class="font-royal text-2xl font-extrabold tracking-wider text-gold-bright">R B SILKS</span>
+                    <p class="text-[10px] tracking-[0.2em] uppercase text-amber-200 font-bold -mt-0.5">Saree Shop • Podili, AP</p>
+                    <p class="text-xs text-gray-300 leading-relaxed">
+                        Best collection of sarees, dress materials, nightwear, innerwear, blankets, bed sheets, towels, shirting and door curtains in Podili.
+                    </p>
+                    <div class="flex items-center gap-2 text-xs text-amber-300 font-bold">
+                        <i class="fa-solid fa-star text-amber-400"></i> 5.0 Google Rating
+                    </div>
+                </div>
+
+                <!-- Col 2: Categories -->
+                <div class="catalog-feature">
+                    <h4 class="font-royal font-bold text-sm text-gold-light mb-4 uppercase tracking-wider">Offerings</h4>
+                    <ul class="space-y-2 text-xs text-gray-300 font-medium">
+                        <li><a href="javascript:void(0)" onclick="setCategory('pattu-sarees')" class="hover:text-gold transition-colors">Pattu & Wedding Sarees</a></li>
+                        <li><a href="javascript:void(0)" onclick="setCategory('fancy-sarees')" class="hover:text-gold transition-colors">Fancy & Party Wear Sarees</a></li>
+                        <li><a href="javascript:void(0)" onclick="setCategory('daily-wear')" class="hover:text-gold transition-colors">Daily Wear Cotton Silk</a></li>
+                        <li><a href="javascript:void(0)" onclick="setCategory('dress-materials')" class="hover:text-gold transition-colors">Dress Materials & Churidars</a></li>
+                        <li><a href="javascript:void(0)" onclick="setCategory('nightwear-innerwear')" class="hover:text-gold transition-colors">Nightwear & Innerwear</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Quick Links -->
+                <div>
+                    <h4 class="font-royal font-bold text-sm text-gold-light mb-4 uppercase tracking-wider">Store Timings</h4>
+                    <ul class="space-y-2 text-xs text-gray-300 font-medium">
+                        <li><span class="text-emerald-400 font-bold">Mon – Sat:</span> Open 24 Hours</li>
+                        <li><span class="text-amber-300 font-bold">Sunday:</span> 8:00 AM – 10:00 PM</li>
+                        <li class="pt-2"><a href="https://www.google.com/maps/search/?api=1&query=R+B+SILKS+College+Road+Viswanathapuram+Podili+Andhra+Pradesh+523240" target="_blank" class="text-blue-400 hover:underline flex items-center gap-1"><i class="fa-solid fa-diamond-turn-right"></i> Open in Google Maps</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 4: Contact -->
+                <div class="space-y-2.5">
+                    <h4 class="font-royal font-bold text-sm text-gold-light mb-4 uppercase tracking-wider">Contact Store</h4>
+                    <p class="text-xs text-gray-300 flex items-start gap-2">
+                        <i class="fa-solid fa-location-dot text-amber-400 mt-0.5"></i>
+                        <span>College Road, Viswanathapuram, Podili, AP 523240</span>
+                    </p>
+                    <p class="text-xs text-gray-300 flex items-center gap-2">
+                        <i class="fa-solid fa-phone text-amber-400"></i>
+                        <a href="tel:+917799058291" class="hover:text-gold">+91 77990 58291</a>
+                    </p>
+                    <p class="text-xs text-gray-300 flex items-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-emerald-400"></i>
+                        <a href="https://wa.me/917799058291" target="_blank" class="hover:text-gold">+91 77990 58291 (WhatsApp)</a>
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- Bottom Copyright -->
+            <div class="pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-gray-400 gap-3">
+                <p>© 2026 R B SILKS, Podili. All Rights Reserved.</p>
+                <p>College Road, Viswanathapuram, Podili, Andhra Pradesh 523240</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- =========================================================================
+         FLOATING ACTION BUTTONS (WHATSAPP & INQUIRY BAG)
+         ========================================================================= -->
+    <div class="fixed bottom-6 right-6 z-50 flex flex-col gap-3 items-end">
+        
+        <!-- Floating Bag Button -->
+        <button 
+            type="button" 
+            onclick="toggleCartDrawer(true)"
+            class="bag-feature w-12 h-12 rounded-full bg-maroon text-gold-light shadow-xl flex items-center justify-center border-2 border-gold hover:scale-105 transition-all relative"
+            title="Open Inquiry Bag"
+        >
+            <i class="fa-solid fa-bag-shopping text-lg"></i>
+            <span class="bag-count-badge absolute -top-1 -right-1 w-5 h-5 rounded-full bg-red-600 text-white text-[11px] font-bold items-center justify-center shadow hidden">0</span>
+        </button>
+
+        <!-- Floating WhatsApp Button -->
+        <a 
+            href="https://wa.me/917799058291" 
+            class="floating-action-btn w-14 h-14 rounded-full bg-emerald-500 hover:bg-emerald-600 text-white shadow-2xl flex items-center justify-center text-3xl transition-transform hover:scale-110"
+            target="_blank"
+            title="Chat with R B SILKS on WhatsApp (+91 77990 58291)"
+        >
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- =========================================================================
+         INQUIRY BAG / CART DRAWER
+         ========================================================================= -->
+    <div id="cart-drawer-backdrop" class="drawer-backdrop fixed inset-0 z-50 hidden opacity-0" onclick="toggleCartDrawer(false)"></div>
+    
+    <div id="cart-drawer" class="cart-drawer closed fixed top-0 right-0 bottom-0 w-full max-w-md bg-white shadow-2xl z-50 flex flex-col">
+        <!-- Header -->
+        <div class="p-5 bg-maroon-dark text-white flex items-center justify-between border-b border-gold/30">
+            <div class="flex items-center gap-2">
+                <i class="fa-solid fa-bag-shopping text-amber-400 text-lg"></i>
+                <div>
+                    <h3 class="font-royal font-bold text-base text-gold-light">Your Inquiry Bag</h3>
+                    <p class="text-[10px] text-gray-300">WhatsApp Order • R B SILKS Podili</p>
+                </div>
+            </div>
+            <button onclick="toggleCartDrawer(false)" class="text-gray-300 hover:text-white p-1">
+                <i class="fa-solid fa-xmark text-xl"></i>
+            </button>
+        </div>
+
+        <!-- Items Container -->
+        <div id="cart-items-container" class="flex-1 overflow-y-auto p-5 space-y-4">
+            <!-- Dynamically populated via js/app.js -->
+        </div>
+
+        <!-- Empty State -->
+        <div id="cart-empty-state" class="hidden flex-1 flex flex-col items-center justify-center p-8 text-center">
+            <div class="w-16 h-16 rounded-full bg-amber-50 text-amber-800 flex items-center justify-center text-2xl mb-4">
+                <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+            <h4 class="font-royal font-bold text-gray-900 text-base mb-1">Your Bag is Empty</h4>
+            <p class="text-xs text-gray-500 mb-6">Browse our sarees, dress materials or nightwear and add items to inquire.</p>
+            <button onclick="toggleCartDrawer(false)" class="btn-gold px-6 py-2.5 rounded-full text-xs font-bold">
+                Start Exploring
+            </button>
+        </div>
+
+        <!-- Footer / Checkout Form -->
+        <div id="cart-footer" class="p-5 bg-ivory border-t border-gray-200 space-y-4">
+            <div class="flex items-center justify-between text-sm">
+                <span class="text-gray-600 font-semibold">Estimated Total Amount:</span>
+                <span id="cart-subtotal" class="text-xl font-bold text-maroon-dark font-royal">₹0</span>
+            </div>
+
+            <!-- Customer Details Form -->
+            <form onsubmit="submitBagWhatsAppOrder(event)" class="space-y-2.5 pt-2 border-t border-gray-200">
+                <input 
+                    id="checkout-name" 
+                    type="text" 
+                    placeholder="Your Full Name" 
+                    required 
+                    class="w-full px-3.5 py-2 text-xs rounded-lg border border-gray-300 bg-white focus:border-amber-600"
+                />
+                <input 
+                    id="checkout-city" 
+                    type="text" 
+                    placeholder="Delivery Town / Address (e.g. Podili / Ongole / Darsi)" 
+                    required 
+                    class="w-full px-3.5 py-2 text-xs rounded-lg border border-gray-300 bg-white focus:border-amber-600"
+                />
+                <input 
+                    id="checkout-notes" 
+                    type="text" 
+                    placeholder="Custom Request (e.g. Color choice / Size / Urgent)" 
+                    class="w-full px-3.5 py-2 text-xs rounded-lg border border-gray-300 bg-white focus:border-amber-600"
+                />
+
+                <button 
+                    type="submit" 
+                    class="w-full btn-whatsapp py-3 rounded-xl text-xs font-bold flex items-center justify-center gap-2 mt-2 shadow-lg"
+                >
+                    <i class="fa-brands fa-whatsapp text-base"></i>
+                    <span>Send Order to WhatsApp (+91 77990 58291)</span>
+                </button>
+            </form>
+
+            <p class="text-[10px] text-center text-gray-500">
+                <i class="fa-solid fa-store text-[9px] mr-1"></i> Shop pickup in Podili & Home Delivery available.
+            </p>
+        </div>
+    </div>
+
+    <!-- =========================================================================
+         PRODUCT QUICK VIEW MODAL
+         ========================================================================= -->
+    <div id="quickview-modal" class="modal-backdrop fixed inset-0 z-50 hidden flex items-center justify-center p-4 sm:p-6 overflow-y-auto">
+        <div class="bg-white rounded-3xl max-w-4xl w-full p-6 md:p-8 relative shadow-2xl border border-amber-200 max-h-[90vh] overflow-y-auto">
+            <button onclick="closeQuickView()" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-gray-100 hover:bg-gray-200 text-gray-600 flex items-center justify-center transition-colors z-10">
+                <i class="fa-solid fa-xmark text-lg"></i>
+            </button>
+            <div id="quickview-content">
+                <!-- Dynamically populated via js/app.js -->
+            </div>
+        </div>
+    </div>
+
+    <!-- =========================================================================
+         LIVE VIDEO SHOPPING BOOKING MODAL
+         ========================================================================= -->
+    <div id="videocall-modal" class="modal-backdrop fixed inset-0 z-50 hidden flex items-center justify-center p-4 sm:p-6 overflow-y-auto">
+        <div class="bg-white rounded-3xl max-w-lg w-full p-6 md:p-8 relative shadow-2xl border border-amber-200">
+            <button onclick="closeVideoCallModal()" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-gray-100 hover:bg-gray-200 text-gray-600 flex items-center justify-center transition-colors">
+                <i class="fa-solid fa-xmark text-lg"></i>
+            </button>
+
+            <div class="text-center mb-6">
+                <div class="w-14 h-14 rounded-full bg-amber-50 text-maroon flex items-center justify-center text-2xl mx-auto mb-3">
+                    <i class="fa-solid fa-video text-amber-700"></i>
+                </div>
+                <h3 class="font-royal text-xl sm:text-2xl font-bold text-gray-900">Book Live Video Shopping</h3>
+                <p class="text-xs text-gray-500 mt-1">
+                    Connect directly with R B SILKS Podili on WhatsApp Video Call.
+                </p>
+            </div>
+
+            <form onsubmit="submitVideoShoppingBooking(event)" class="space-y-4">
+                <div>
+                    <label class="block text-xs font-bold text-gray-700 mb-1">Your Name *</label>
+                    <input id="vc-name" type="text" placeholder="e.g. Sravani" required class="w-full px-3.5 py-2.5 text-xs rounded-xl border border-gray-300 focus:border-amber-600 bg-gray-50/50" />
+                </div>
+
+                <div>
+                    <label class="block text-xs font-bold text-gray-700 mb-1">WhatsApp Phone Number *</label>
+                    <input id="vc-phone" type="tel" placeholder="e.g. +91 77990 58291" required class="w-full px-3.5 py-2.5 text-xs rounded-xl border border-gray-300 focus:border-amber-600 bg-gray-50/50" />
+                </div>
+
+                <div class="grid grid-cols-2 gap-3">
+                    <div>
+                        <label class="block text-xs font-bold text-gray-700 mb-1">Preferred Date</label>
+                        <input id="vc-date" type="date" class="w-full px-3.5 py-2.5 text-xs rounded-xl border border-gray-300 focus:border-amber-600 bg-gray-50/50" />
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-gray-700 mb-1">Preferred Slot</label>
+                        <select id="vc-time" class="w-full px-3.5 py-2.5 text-xs rounded-xl border border-gray-300 focus:border-amber-600 bg-gray-50/50 cursor-pointer">
+                            <option value="Morning (10:00 AM - 1:00 PM)">10 AM - 1 PM</option>
+                            <option value="Afternoon (2:00 PM - 5:00 PM)">2 PM - 5 PM</option>
+                            <option value="Evening (5:00 PM - 9:00 PM)">5 PM - 9 PM</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-bold text-gray-700 mb-1">What would you like to see?</label>
+                    <input id="vc-occasion" type="text" placeholder="e.g. Wedding Pattu / Fancy Sarees / Daily Wear" class="w-full px-3.5 py-2.5 text-xs rounded-xl border border-gray-300 focus:border-amber-600 bg-gray-50/50" />
+                </div>
+
+                <button type="submit" class="w-full btn-whatsapp py-3.5 rounded-xl text-xs font-bold flex items-center justify-center gap-2 shadow-lg mt-2">
+                    <i class="fa-brands fa-whatsapp text-lg"></i>
+                    <span>Confirm on WhatsApp (+91 77990 58291)</span>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Toast Notification Container -->
+    <div id="toast-container"></div>
+
+    <!-- Scripts -->
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
