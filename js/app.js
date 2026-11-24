@@ -848,7 +848,6 @@ function renderTestimonials() {
                 </p>
             </div>
             <div class="flex items-center gap-3 pt-4 border-t border-gray-100">
-                <img src="${t.avatar}" alt="${t.name}" class="w-12 h-12 rounded-full object-cover border-2 border-amber-300" />
                 <div>
                     <h4 class="font-bold text-gray-900 text-sm">${t.name}</h4>
                     <p class="text-xs text-gray-500">${t.location} • <span class="text-amber-800 font-medium">${t.occasion}</span></p>

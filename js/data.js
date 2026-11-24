@@ -364,7 +364,6 @@ const TESTIMONIALS = [
         occasion: 'Daughter\'s Wedding Shopping',
         rating: 5,
         review: 'Best saree shop in Podili! We purchased all our wedding pattu sarees and dress materials here. High quality, wholesale prices, and very polite customer service. WhatsApp support is very fast!',
-        avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80',
         verified: true
     },
     {
@@ -373,7 +372,6 @@ const TESTIMONIALS = [
         occasion: 'Festive & Daily Wear Sarees',
         rating: 5,
         review: 'Their fancy sarees and cotton daily wear collections are unmatched. The shop is open 24 hours on College Road, and their WhatsApp ordering makes it so easy to book sarees from home.',
-        avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80',
         verified: true
     },
     {
@@ -382,7 +380,6 @@ const TESTIMONIALS = [
         occasion: 'Dress Materials & Nightwear',
         rating: 5,
         review: 'Very good collection of dress materials, nightwear, and innerwear along with rich pattu sarees. 5-star quality and genuine rates for all budgets.',
-        avatar: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=200&q=80',
         verified: true
     }
 ];
